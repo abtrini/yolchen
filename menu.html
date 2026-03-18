@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigaation Section -->
+    <section>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     
+      <div class="container">
+        <a class="navbar-brand p-0 m-0" href="index.html#home">
+
+         <img
+        src="./assets/yolchenLogo.png"
+        alt="Yolchen Bakery Treats"
+        class="img-fluid d-block"
+        style="max-height: 90px; width: auto;"
+      />
+    </a>
+        <!-- toggle button -->
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        
+    
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNavAltMarkup"
+        >
+         <div class="navbar-nav ms-auto fs-4">
+            <a class="nav-link" href="index.html#products">Products</a>
+            <a class="nav-link" href="index.html#services">Services</a>
+            <a class="nav-link " aria-current="page" href="#about">About Us</a
+            >
+
+            <a class="nav-link" href="#findus">Location</a>
+          </div>
+          
+          
+        </div>
+     
+      </div>
+
+    </nav>
+    </section>
+
+    <!-- Hero Section -->
+    <!-- <section id="menu" class="hero">
+      <div class="container-xxl ">
+        <div class="row justify-content-center border border-primary">
+          <div class="col-lg-8 ">
+            <img
+              src="/assets/menu.jpg"
+              class="img-fluid w-100 object-fit-cover "
+              alt="Our Menu"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          class="row justify-content-center text-center "
+        >
+          <div class="col  w-100 p-0 g-0 ">
+            <h1>Our Menu</h1>
+            <p>
+              Welcome to our menu! Here you can find all our delicious
+              offerings.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+<section id="menu-hero" class="py-5 menu-hero">
+  <div class="container rounded-5 py-5 text-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-xl-8">
+        <h1 class="display-2 fw-bold mb-3">Our Menu</h1>
+        <p class="lead mb-4">
+          Welcome to our menu! Explore our full range of freshly baked breads,
+          delicious pastries, homemade pies, sweet treats, and cakes prepared
+          with care at Yolchen Bakery.
+        </p>
+
+        <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+          <a href="#breads" class="btn btn-danger btn-lg px-4">Breads</a>
+          <a href="#cakes" class="btn btn-outline-dark btn-lg px-4">Cakes</a>
+          <a href="#pastries" class="btn btn-outline-dark btn-lg px-4">Pastries</a>
+        </div>
+
+        <p class="mb-0 small text-muted">
+          Freshly baked • Made with care • Something for everyone
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- BREADS -->
+    <section id="breads" class="hero1">
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center p-5 text-center text-lg-start"
+        >
+          <div class="col-lg-5 col-9 ">
+            <img
+              src="./assets/bread.jpg"
+              alt="Breads"
+              srcset=""
+              class="img-fluid w-100 h-100 object-fit-cover p-0 align-items-center rounded-5 mb-5 mb-lg-0"
+            />
+          </div>
+          <div class="col-lg-7">
+            <h1 class="display-1">Breads</h1>
+            <p class="lead">
+              Our signature breads featuring innovative flavors like Spinach and
+              Beetroot to classic favorites like White and Whole Wheat, we have
+              something to suit every palate.
+            </p>
+            <div class="table-responsive">
+            <table class="table col-lg-10 text-start table-transparent table-hover table-borderless">
+              <thead>
+                <tr>
+                  <th class="col text-danger text-uppercase">Bread</th>
+                  <th class="col text-danger">Cost</th>
+                  <th class="col text-danger text-uppercase">Bread</th>
+                  <th class="col text-danger">Cost</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <td>Beetroot</td>
+                  <td>$26.00</td>
+                  <td>Spinach</td>
+                  <td>$23.00</td>
+                </tr>
+                <tr>
+                  <td>Pumpkin</td>
+                  <td>$23.00</td>
+                  <td>Multigrain</td>
+                  <td>$23.00</td>
+                </tr>
+                <tr>
+                  <td>Whole Wheat Hops</td>
+                  <td>$19.00</td>
+                  <td>White Hops</td>
+                  <td>$16.00</td>
+                </tr>
+                <tr>
+                  <td>Whole Wheat</td>
+                  <td>$18.00</td>
+                  <td>White</td>
+                  <td>$16.00</td>
+                </tr>
+                <tr>
+                  <td>Cocomut Bake</td>
+                  <td>$16.00</td>
+                  <!-- <td>Multigrain</td>
+                  <td>$26.00</td> -->
+                </tr>
+              </tbody>
+            </table></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cakes -->
+    <section id="cakes" class="hero">
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center p-5 text-center text-lg-start"
+        >
+          <div class="col-lg-5 col-9">
+            <img
+              src="./assets/bread.jpg"
+              alt="Breads"
+              srcset=""
+              class="img-fluid w-100 h-100 object-fit-cover p-0 align-items-center rounded-5 mb-5 mb-lg-0"
+            />
+          </div>
+          <div class="col-lg-7">
+            <h1>Cakes</h1>
+            <p class="lead">
+              Embark on a culinary journey with our diverse menu offerings,
+              carefully crafted to delight your taste buds and satisfy your
+              cravings.
+            </p>
+
+            <table class="col-lg-10 table text-start table-transparent">
+              <thead>
+                <tr>
+                  <th class="col text-danger text-uppercase">Bread</th>
+                  <th class="col text-danger">Cost</th>
+                  <th class="col text-danger text-uppercase">Bread</th>
+                  <th class="col text-danger">Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Pone</td>
+                  <td>$9.00</td>
+                  <td>Oatmeal Cookies</td>
+                  <td>$9.00</td>
+                </tr>
+                <tr>
+                  <td>Banana Bread</td>
+                  <td>$9.00</td>
+                  <td>Banana Bread (LG/SM)</td>
+                  <td>$35.00/$70.00</td>
+                </tr>
+                <tr>
+                  <td>Sweet Bread</td>
+                  <td>$8.00</td>
+                  <td>Sweet Bread (LG/SM)</td>
+                  <td>$35.00/$70.00</td>
+                </tr>
+                <tr>
+                  <td>Sponge Cake</td>
+                  <td>$9.00</td>
+                  <td>Sponge Cake (LG/SM)</td>
+                  <td>$60.00/$70.00</td>
+                </tr>
+                <tr>
+                  <td>Pumpkin Muffins</td>
+                  <td>$9.00</td>
+                  <td>Pumpkin Cake</td>
+                  <td>$36.00</td>
+                </tr>
+                <tr>
+                  <td>Carrot Muffin</td>
+                  <td>$17.00</td>
+                  <td>Carrot Cake</td>
+                  <td>$130.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pastries -->
+    <section id="pastries" class="hero1">
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center p-5 text-center text-lg-start"
+        >
+          <div class="col-lg-5 col-9">
+            <img
+              src="./assets/bread.jpg"
+              alt="Breads"
+              srcset=""
+              class="img-fluid w-100 h-100 object-fit-cover p-0 align-items-center rounded-5 mb-5 mb-lg-0"
+            />
+          </div>
+          <div class="col-lg-7">
+            <h1>Pastries</h1>
+            <p class="lead">
+              From savory pies filled with tender meats and flavorful vegetables
+              to sweet treats like jam tarts and coconut rolls, we have a pastry
+              for every craving.
+            </p>
+
+            <table class="col-lg-10 table text-start table-transparent">
+              <thead>
+                <tr>
+                  <th class="col text-danger text-uppercase">Bread</th>
+                  <th class="col text-danger">Cost</th>
+                  <th class="col text-danger text-uppercase">Bread</th>
+                  <th class="col text-danger">Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Pone</td>
+                  <td>$9.00</td>
+                  <td>Oatmeal Cookies</td>
+                  <td>$9.00</td>
+                </tr>
+                <tr>
+                  <td>Banana Bread</td>
+                  <td>$9.00</td>
+                  <td>Banana Bread (LG/SM)</td>
+                  <td>$35.00/$70.00</td>
+                </tr>
+                <tr>
+                  <td>Sweet Bread</td>
+                  <td>$8.00</td>
+                  <td>Sweet Bread (LG/SM)</td>
+                  <td>$35.00/$70.00</td>
+                </tr>
+                <tr>
+                  <td>Sponge Cake</td>
+                  <td>$9.00</td>
+                  <td>Sponge Cake (LG/SM)</td>
+                  <td>$60.00/$70.00</td>
+                </tr>
+                <tr>
+                  <td>Pumpkin Muffins</td>
+                  <td>$9.00</td>
+                  <td>Pumpkin Cake</td>
+                  <td>$36.00</td>
+                </tr>
+                <tr>
+                  <td>Carrot Muffin</td>
+                  <td>$17.00</td>
+                  <td>Carrot Cake</td>
+                  <td>$130.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="footerhero">
+      <div class="container p-4">
+        <footer class="row d-flex text-center justify-content-between">
+          <div class="col-lg-3 mb-2">
+            <h2 class="fw-bold">LOCATION</h2>
+            <p>
+              YOLCHEN BAKERY TREATS<br />
+              Unit 2C<br />
+              La Clave Extension<br />
+              Edinburgh 500<br />
+              Chaguanas
+            </p>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <h3 class="fw-bold">FOLLOW US ON SOCIAL MEDIA</h3>
+            <div class="d-flex justify-content-center gap-4">
+              <a
+                href="http://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="display-6 bi bi-facebook"></i
+              ></a>
+
+              <a
+                href="http://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="display-6 bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="fw-bold">CONTACT US</h3>
+            <p>
+              (868) 705-7679<br />
+              yolchenbakerytreats@gmail.com
+            </p>
+          </div>
+        </footer>
+      </div>
+      <div class="footerhero d-flex justify-content-between w-100 px-5">
+        <p>&copy; 2026 Your Bakery. All rights reserved.</p>
+        <p>
+          &copy; Powered by
+          <a
+            href="http://www.digilingostudios.com"
+            target="_blank"
+            class="fw-bold text-decoration-none text-light"
+          >
+            DigiLingo Studios
+          </a>
+        </p>
+      </div>
+    </section>
+<!-- Back to top button -->
+<button
+  type="button"
+  class="btn btn-danger btn-floating btn-lg"
+  id="btn-back-to-top"
+>
+  <i class="fas fa-arrow-up">Back to the top</i>
+</button>
+
+ <script>
+  // Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 || // For older browsers
+    document.documentElement.scrollTop > 20 // For modern browsers
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", function () {
+  document.body.scrollTop = 0; // For older browsers
+  document.documentElement.scrollTop = 0; // For modern browsers
+});
+
+ </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

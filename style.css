@@ -1,0 +1,73 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#breads,
+#cakes,
+#pastries,
+#products,
+#services,
+#about,
+#findus {
+  scroll-margin-top: 100px;
+}
+
+.hero{
+    background-color: blanchedalmond;
+}
+
+.hero1{
+    background-color:coral;
+}
+
+.footerhero{
+    background-color:black;
+    color: white;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.cardImageHeight{
+    height: 300px;
+    object-fit: cover;
+}
+
+iframe{
+    width: 100%;
+    object-fit: contain;
+    border: 12px solid black;
+    border-radius: 25px;
+}
+
+.table-transparent,
+.table-transparent th,
+.table-transparent td {
+  background-color: transparent !important;
+   
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.menu-hero {
+  background-color: #e8d7bd;
+}
+
+.menu-hero .container {
+  background-color: #e8d7bd;
+}
+
+.menu-hero h1 {
+  color: #da4f18;
+}
+
+.menu-hero p {
+  color: #2d2d2d;
+}

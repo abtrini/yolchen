@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- navbar -->
+     <section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     
+      <div class="container">
+                <a class="navbar-brand p-0 m-0" href="index.html">
+
+         <img
+        src="./assets/yolchenLogo.png"
+        alt="Yolchen Bakery Treats"
+        class="img-fluid d-block"
+        style="max-height: 90px; width: auto;"
+      />
+    </a>
+        <!-- toggle button -->
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        
+    
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNavAltMarkup"
+        >
+         <div class="navbar-nav ms-auto fs-4">
+            <a class="nav-link" href="#products">Products</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link " aria-current="page" href="#about">About Us</a
+            >
+
+            <a class="nav-link" href="#findus">Location</a>
+          </div>
+          
+          <div class="navbar-nav ms-auto">
+          <div class="nav-item d-lg-none">
+                 <a class="btn btn-success" href="menu.html">ORDER </a>
+          </div>
+          <div class="navbar-item ms-2 d-none d-lg-inline">
+            <a class="btn btn-success" href="menu.html">ORDER </a>
+          </div>
+        </div>
+        </div>
+     
+      </div>
+
+    </nav>
+</section>
+    <!-- HEAD SECTION -->
+     <!-- style="background-image: url('../assets/baker.jpg')" -->
+    <section id="home" class="hero py-5">
+      <div class="container  rounded-5 mt-4">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-10">
+
+          <img
+            src="/assets/baker.jpg"
+            class="img-fluid rounded-5 mb-4"
+            alt="Yoclchen Bakery Baker"
+          />
+          <h1 class="display-2  text-center fw-bold">
+            Freshly Baked Daily at <br />
+            Yolchen Bakery
+          </h1>
+          <p class="lead mb-4">
+            Soft breads, hearty pies, sweetbread, and cakes—made fresh and ready
+            when you are.
+          </p>      
+        <a class=" btn btn-lg btn-success px-4 mb-3" href="#findus">
+          Find us Here
+        </a>
+         <a class=" btn btn-lg btn-danger px-4 mb-3" href="#products">
+          Buy
+        </a>
+          <p >
+            Local bakery • Fresh batches • Friendly service
+        </p>
+       </div>  
+      </div> 
+    </div>
+    </section>
+
+    <section id="products" class="hero1 py-5">
+      <div class="container   rounded-5">
+        <div class="row text-center text-xxl-start  mb-5">
+           <div class="col-xxl-8">
+            <h2 class="fw-bold display-3  ">Make every meal a special one</h2>
+            <div class="class  border-bottom border-1 border-danger mb-4"></div>
+          </div>
+          <div class="col">
+            <p class="fw-bold display-6">Satisfying customers every day</p>
+            <p class="lead">Established in 2019, Yolchen Bakery has been serving the community of Edinburgh 500 Chaguanas with delectable baked goods crafted with love and care</p>
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center g-5">
+          <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card rounded-5 text-center h-100 border-0">
+              <img
+                src="/assets/baker.jpg"
+                class="card-img-top rounded-5 cardImageHeight "
+                alt="Breads"
+              />
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Breads</h4>
+                <p class="card-text lead">
+                 Here, you’ll find a delightful assortment of freshly baked breads crafted with care and passion
+                </p>
+                <a href="./menu.html#breads" class="btn btn-danger mt-auto">View</a>
+              </div>
+            </div>
+          </div>
+
+          
+
+             <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card rounded-5 text-center h-100 border-0">
+              <img
+                src="/assets/baker.jpg"
+                class="card-img-top rounded-5 cardImageHeight"
+                alt="Breads"
+              />
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Cakes</h4>
+                <p class="card-text lead">
+                   Indulge in the sweet temptations of Yolchen Bakery’s Cake collection! 
+                </p>
+                <a href="./menu.html#cakes" class="btn btn-danger mt-auto">View</a>
+              </div>
+            </div>
+            
+          </div>
+
+             <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card rounded-5 text-center h-100 border-0">
+              <img
+                src="/assets/baker.jpg"
+                class="card-img-top  rounded-5 cardImageHeight"
+                alt="Breads"
+              />
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Pastries</h4>
+                <p class="card-text lead">
+                From savory pies filled with tender meats and flavorful vegetables to sweet treats like jam tarts and coconut rolls, we have a pastry for every craving.
+                </p>
+                <a href="./menu.html#pastries" class="btn btn-danger btn-bottom mt-auto">View</a>
+              </div>
+            </div>
+          </div>
+      <div>
+    </div>
+ </section>
+
+
+<!-- Hosting an event section -->
+ <section id="services" class=" py-5">
+  <div class="container mt-5">
+    <div class="row gap-5 ">
+      <div class="col-xxl-4  text-center text-xxl-start ">
+        <h2 class="display-3">Are you hosting an event?      
+</h2>
+<p class="lead">Impress your guests with our catering services tailored to meet your needs and preferences. From corporate events to intimate gatherings, our staff will craft a menu featuring a delightful array of savory and sweet treats, sure to leave a lasting impression on your guests.</p>
+<div class="row">
+  <div class="col">
+    <a href="#" class="btn btn-danger ">Services</a>
+  
+      <a href="#" class="btn btn-danger" >Contact Us</a>
+  </div>
+  </div>
+</div>
+<div class="col-xxl-6">
+     <img
+                src="/assets/baker.jpg"
+                class="card-img-top  rounded-5 "
+                alt="Breads"
+              />
+</div>
+
+</div>
+  </div>
+ </section>
+
+<!-- About Us section -->
+  <section id="about" class="hero py-5">
+  <div class="container mt-5">
+    <div class="row gap-5 ">
+      <div class="col-xxl-6">
+     <img
+                src="/assets/baker.jpg"
+                class="card-img-top  rounded-5 "
+                alt="Breads"
+              />
+</div>
+      <div class="col-xxl-4  text-center text-xxl-start ">
+        <h2 class="display-3">About Us     
+</h2>
+<p class="lead">Welcome to our bakery, where passion for baking meets a commitment to quality. Our journey began with a simple love for creating delicious, handcrafted baked goods that bring joy to every bite. From our signature breads and pastries to our custom cakes, we strive to provide a warm, welcoming experience for all our customers.</p>
+<div class="row">
+  <div class="col">
+    <a href="#" class="btn btn-danger ">Our Story</a>
+  
+  </div>
+  </div>
+</div>
+</div>
+  </div>
+ </section>
+ 
+<!-- Find Us section -->
+
+ <section id="findus" class="hero1 py-5 text-center ">
+  <div class="container ">
+
+
+    <h2 class="display-2">Visit Us</h2>
+    <p class="lead">Come enjoy fresh breads and pastries at Yolchen Bakery.</p>
+
+<div class="d-flex justify-content-center gap-2 mb-5">
+<a href="https://ul.waze.com/ul?ll=10.51102012%2C-61.40290976&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+   class="btn btn-primary"
+   target="_blank">
+   Google Maps
+</a>
+
+<a href="https://ul.waze.com/ul?ll=10.51102012%2C-61.40290976&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+   class="btn btn-info"
+   target="_blank">
+   Open in Waze
+</a>
+</div>
+ <img
+                src="/assets/baker.jpg"
+                class="card-img-top  rounded-5 "
+                alt="Breads"
+              />
+  </div>
+ </section>
+
+
+
+ 
+ <!-- Footer section -->
+ <section id="footer" class="footerhero">
+  <div class="container p-4">
+      <footer class=" row d-flex text-center justify-content-between">
+        <div class=" col-lg-4 mb-2">
+          <h4 class="fw-bold">LOCATION</h4>
+          <p>
+        YOLCHEN BAKERY TREATS<br>
+        Unit 2C<br>
+        La Clave Extension<br>
+        Edinburgh 500<br>
+        Chaguanas</p>
+        </div>
+        <div class=" col-lg-4 mb-4 ">
+          <h4 class="fw-bold">FOLLOW US ON SOCIAL MEDIA</h4>
+          <div class="d-flex justify-content-center gap-4 fs-2 ">           
+            
+            <a href="http://" target="_blank" rel="noopener noreferrer"> <i class=" text-warning bi bi-facebook"></i></a>
+            
+           <a href="http://" target="_blank" rel="noopener noreferrer">             <i class="text-warning bi bi-instagram"></i></div></a>
+
+
+        </div>
+        <div class=" col-lg-4  ">
+          <h4 class="fw-bold ">CONTACT US</h4>
+          <p>(868) 705-7679<br>
+          yolchenbakerytreats@gmail.com</p>
+        </div>
+      </footer>        
+
+    
+  
+  </div>    
+  <div class=" footerhero d-flex justify-content-between  w-100 px-5">
+        <p>&copy; 2026 Your Bakery. All rights reserved.</p>
+                <p>&copy; Powered by 
+                    <a href="http://www.digilingostudios.com" target="_blank" class="fw-bold text-decoration-none text-light">
+                      DigiLingo Studios
+                    </a>
+                </p>
+</div>
+</section>
+
+<!-- Back to top button -->
+<button
+  type="button"
+  class="btn btn-danger btn-floating btn-lg"
+  id="btn-back-to-top"
+>
+  <i class="fas fa-arrow-up">Back to the top</i>
+</button>
+
+ <script>
+  // Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 || // For older browsers
+    document.documentElement.scrollTop > 20 // For modern browsers
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", function () {
+  document.body.scrollTop = 0; // For older browsers
+  document.documentElement.scrollTop = 0; // For modern browsers
+});
+
+ </script>
+ 
+ 
+ 
+ <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
